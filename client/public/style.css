@@ -18,6 +18,23 @@ button,
 a{cursor: pointer; color: inherit;}
 textarea{resize: none;}
 
+#root section {
+  color: #FFFFFF;
+  background-color: #4343F9;
+}
+
+section h2 {
+  width: 200px;
+}
+
+#root section{
+  width: 100%;
+  height: 100vh;
+  padding: 20px 40px;
+  border-bottom: 20px solid;
+  color: #FFFFFF;
+  background-color: #4343F9;
+  }
 /* CSS reset END */
 
 body{

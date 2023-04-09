@@ -15,7 +15,12 @@ const loadEvent = function() {
   });
 
   // Write your JavaScript code after this line
+  const sectionsInsideMain = document.querySelectorAll("#root section");
 
+  sectionsInsideMain.forEach((section, index) => {
+    section.classList.add("co");
+    section.insertAdjacentHTML("beforeend", `<h2>${sectionH2texts[index]}</h2>`);
+  });
   
   // Write your JavaScript code before this line
 
